@@ -11,7 +11,7 @@
 <body>
   <br>
 
-  <center><span style="font-size: 44px; font-weight: bold;">Causal Sim Paper Title</span></center><br/>
+  <center><span style="font-size: 44px; font-weight: bold;">CausalCity: Complex Simulations with Agency for Causal Discovery and Reasoning</span></center><br/>
 
   <table align=center width=600px style="padding-top: 0px; padding-bottom: 20px;">
     <tr>
@@ -55,7 +55,7 @@
     <h1>Abstract</h1>
   </center>
   <div style="width: 750px; margin: 0 auto; text-align=center; text-align: justify; text-justify: inter-ideograph;">
-    The ability to perform causal and counterfactual reasoning are central properties of human intelligence. Machines that can perform these types of reasoning are desirable as they could help make decision-making systems more generalizable and interpretable. Simulations have helped advance the state-of-the-art in this domain, by providing the ability to systematically vary parameters (e.g., confounders, both hidden and measurable) and generate examples of the outcomes in the case of counterfactual scenarios. We present a high-fidelity simulation environment that is designed for experiments on causal discovery and counterfactual reasoning. We use the safety-critical real-world application of driving/vehicle navigation. and perform systematic experiments to illustrate the affordances of the this environment, highlighting the challenges and opportunities.
+    The ability to perform causal and counterfactual reasoning are central properties of human intelligence. Decision-making systems that can perform these types of reasoning have the potential to be more generalizable and interpretable. Simulations have helped advance the state-of-the-art in this domain, by providing the ability to systematically vary parameters (e.g., confounders) and generate examples of the outcomes in the case of counterfactual scenarios. However, simulating complex temporal causal events, such as those that existing in driving and vehicle navigation, is challenging. To help address this, we present a high-fidelity simulation environment that is designed for developing algorithms for causal discovery and counterfactual reasoning in this safety-critical context. A core component of our work is to introduce agency, such that it is simple to define and create complex scenarios using high-level definitions. The vehicles then operate with agency to complete these objectives, meaning low-level behaviors need only be controlled if necessary. We perform experiments with three state-of-the-art methods to create baselines and highlight the affordances of this environment. Finally, we highlight challenges and opportunities for future work.
   </div>
 
   <br><hr>
@@ -68,20 +68,8 @@
   </table>
   <br>
   <div style="width: 750px; margin: 0 auto; text-align=center; text-align: justify; text-justify: inter-ideograph;">
-    ...
-  </div>
-
-  <br><hr>
-
-  <center>
-    <h1>Overview</h1>
-  </center>
-  <table align=center width=800px>
-    <center><img src="imgs/overview.png" width=400px /></center>
-  </table>
-  <br>
-  <div style="width: 750px; margin: 0 auto; text-align=center; text-align: justify; text-justify: inter-ideograph;">
-    ...
+    CausalCity is a high-fidelity simulation environment, with AI agent controls for creating scenarios for causal and counterfactual reasoning. This environment reflects the real-world, safety critical scenario of driving. We want a simulation environment that enables controllable scenario generation that can be used for temporal and causal reasoning. This environment allows us to create complex scenarios including different types of confounders with relatively little effort. Within CausalCity you can introduce any number of vehicles, each of which is controlled at a high-level and has basic AI agency to maneuver avoiding collisions, navigating corners, stopping at traffic lights, etc. The high-level controls for each vehicle allow us to define each agent's behavior in a more abstract form controlling their sequence of actions (e.g., turn left at the next intersection, following that merge into the left lane etc.), their speed changes in different legs of the journey, their stopping distance behind other vehicles etc.
+Furthermore, our simulation can be used to introduce confounders to the environment such as the time of day and the weather conditions, which can be set both changing the visual appearance of the scene but also enabling causal relationships to be introduced (for example between vehicle speed or stopping distance and the amount of water on the roads). Also, traffic lights can be controlled at a low (the timing of each individual light) and high (transition timings for all the lights) levels.  All these present opportunities for future work on causal reasoning.
   </div>
   
   <br>
