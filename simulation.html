@@ -100,7 +100,14 @@
       <br>
       &gt;&gt;&gt; c = airsim.client.CarClient()
       <br>
+      &gt;&gt;&gt; # Run a scenario:
+      <br>
       &gt;&gt;&gt; c.simRunConsoleCommand('ce RunScenario Scenario_1')
+      <br>
+      &gt;&gt;&gt; # Get RGB image and segmentation mask:
+      <br>
+      &gt;&gt;&gt; segResponse = c.simGetImages([airsim.ImageRequest("0", airsim.ImageType.Scene, False, False),
+            airsim.ImageRequest("0", airsim.ImageType.Segmentation, False, False)])
   </div>
 
   <br>
