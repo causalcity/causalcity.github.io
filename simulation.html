@@ -108,16 +108,16 @@
       <br><br>
     <code> &gt;&gt;&gt; import airsim </code>
       <br><br>
-      # Set up car client:
-      <br>
+      Set up car client:
+      <br><br>
     <code> &gt;&gt;&gt; c = airsim.client.CarClient() </code>
       <br><br>
-      # Run a scenario:
-      <br>
+      Run a scenario:
+      <br><br>
     <code> &gt;&gt;&gt; c.simRunConsoleCommand('ce RunScenario Scenario_1') </code>
       <br><br>
-      # Get RGB image and segmentation mask:
-      <br>
+      Get RGB image and segmentation mask:
+      <br><br>
       <code> &gt;&gt;&gt; segResponse = c.simGetImages([airsim.ImageRequest("0", airsim.ImageType.Scene, False, False),
         airsim.ImageRequest("0", airsim.ImageType.Segmentation, False, False)]) </code>
   </div>
