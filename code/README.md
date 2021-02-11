@@ -13,4 +13,7 @@
 
 ## Reference
     Causal Discovery in Physical Systems from Videos
+    Li, Y., Torralba, A., Anandkumar, A., Fox, D., & Garg, A. (2020). Causal discovery in physical systems from videos. arXiv preprint arXiv:2007.00631.
+    
     Neural Relational Inference for Interacting Systems
+    Kipf, T., Fetaya, E., Wang, K. C., Welling, M., & Zemel, R. (2018, July). Neural relational inference for interacting systems. In International Conference on Machine Learning (pp. 2688-2697). PMLR.
