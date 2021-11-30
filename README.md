@@ -7,6 +7,7 @@ Here we provide python code for generating and logging scenarios using the simul
 ## Data Download:
 
 Location Files (size - 435MB) - https://simulation.blob.core.windows.net/publicrelease/CausalCityLocations.zip
+
 Image, Segmentation and Location Files (size - 82GB) - https://simulation.blob.core.windows.net/publicrelease/Test.zip
 
 Location Files (size - 19MB) - https://simulation.blob.core.windows.net/publicrelease/ToyLocations.zip
