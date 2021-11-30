@@ -1,7 +1,10 @@
 ## Requirements
     Python 3.7
 
-## Usage
+## Generating scenarios
+    secnarioGenerator.py can be used to create a JSON configuration file programatically. 
+
+## Evaluation
     python causalcity2nri_data.py --ncar 12 --nconnect 3
     python causalcity2vcdn_data.py --ncar 12 --nconnect 3
     
