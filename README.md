@@ -19,6 +19,7 @@ code/scenarioGenerator.py provides an example of how to programmatically create 
 
 Scenario configurations have the following form:
 
+```json
 [
     {
         "Name": "Scenario_1",
@@ -45,3 +46,4 @@ Scenario configurations have the following form:
         ]
    }
 ]
+```
