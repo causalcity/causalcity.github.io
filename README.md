@@ -54,6 +54,8 @@ Scenario configurations have the following form:
 https://microsoft.github.io/AirSim/apis/#weather-apis
 
 ```python
+client.simSetWeatherParameter(airsim.WeatherParameter.Rain, 0.25);
+
 class WeatherParameter:
     Rain = 0
     Roadwetness = 1
@@ -64,3 +66,11 @@ class WeatherParameter:
     Dust = 6
     Fog = 7
 ```
+
+### Time of Day:
+
+```python
+simSetTimeOfDay(self, is_enabled, start_datetime = "", is_start_datetime_dst = False, celestial_clock_speed = 1, update_interval_secs = 60, move_sun = True)
+```
+
+
