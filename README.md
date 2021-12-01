@@ -15,7 +15,7 @@ Location Files (size - 19MB) - https://simulation.blob.core.windows.net/publicre
 
 To generate your own scenarios you need to create a JSON configuration file that defines those scenarios.
 
-code/scenarioGenerator.py provides an example of how to programmatically create scenarios - which is useful if you want to define 100s or 1000s of scenarios.
+code/scenarioGenerator.py (https://github.com/causalcity/causalcity.github.io/blob/main/code/scenarioGenerator.py) provides an example of how to programmatically create scenarios - which is useful if you want to define 100s or 1000s of scenarios.
 
 Scenario configurations have the following form:
 
