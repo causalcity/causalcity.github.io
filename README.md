@@ -50,6 +50,8 @@ Scenario configurations have the following form:
 
 ## Controlling Environment Variables
 
+Environmental variables that can act as confounders in a dataset can be controlled using the AirSim APIs.  Some of these variable impact the visual appearance of the scene, while others will also impact the trajectories of the vehicles.
+
 ### AirSim Documentation:
 
 https://microsoft.github.io/AirSim/apis/#weather-apis
