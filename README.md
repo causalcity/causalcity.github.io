@@ -50,8 +50,12 @@ Scenario configurations have the following form:
 
 ## Controlling Environment Variables
 
-### Weather:
+### AirSim Documentation:
+
 https://microsoft.github.io/AirSim/apis/#weather-apis
+
+### Weather:
+
 
 ```python
 client.simSetWeatherParameter(airsim.WeatherParameter.Rain, 0.25);
